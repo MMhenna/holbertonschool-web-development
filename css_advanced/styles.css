@@ -1,0 +1,306 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.background-container {
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  color: white;
+}
+
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-header {
+  display: inline;
+  margin-left: 100px;
+}
+
+.nav-bar {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav-bar a {
+  margin-right: 70px;
+}
+
+.banner .first-block {
+  text-align: center;
+}
+
+.first-block h1 {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.first-block p {
+  font-size: 16px;
+  font-weight: bold;
+  word-spacing: 70px;
+}
+
+.first-block button {
+  background-color: #c271ff;
+  color: #ffffff;
+  width: 162px;
+  height: 42px;
+  border-radius: 40px;
+  border: #c271ff;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.second-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-block {
+  display: flex;
+  justify-content: center;
+}
+
+.image-block {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.second-block h2 {
+  font-size: 32px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.second-block h2 span {
+  color: #c271ff;
+}
+
+.image-block p {
+  font-style: italic;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 392px;
+  background-color: #c271ff;
+  color: #ffffff;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quote-block {
+  text-align: left;
+}
+
+.quote-block blockquote {
+  font-size: 22px;
+}
+
+.quote-block p {
+  margin-left: 50px;
+}
+
+.quote-block .name {
+  font-weight: bold;
+}
+
+.quote-block .title {
+  font-style: italic;
+}
+
+.video-list h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.video-list h1 span {
+  color: #c271ff;
+}
+
+.videos-block {
+  display: flex;
+  justify-content: center;
+}
+
+.video-block {
+  margin-left: 50px;
+}
+
+.video-block h2 {
+  /* text-align: center; */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.video-block p {
+  font-size: 14px;
+  color: gray;
+}
+
+.comment-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment-block img {
+  width: 30px;
+  height: 30px;
+}
+
+.comment-block h3 {
+  font-size: 14px;
+  color: #c271ff;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating p {
+  color: #c271ff;
+}
+
+.free-membership {
+  background-color: #071629;
+  padding-top: 70px;
+  height: 502px;
+}
+
+.free-membership h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.free-membership h1 span {
+  color: #c271ff;
+}
+
+.memberships-block {
+  text-align: center;
+}
+
+.membership-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.membership-block {
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.register-button {
+  text-align: center;
+}
+
+.membership-block h2 {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.membership-block p {
+  font-size: 14;
+  color: #ffffff;
+}
+
+.register-button button {
+  background-color: #c271ff;
+  color: #ffffff;
+  width: 162px;
+  height: 42px;
+  border-radius: 40px;
+  border: #c271ff;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.faq h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.double-block {
+  margin-right: 150px;
+}
+
+.faq-block h2 {
+  color: #071629;
+  font-size: 16px;
+}
+
+.faq-block p {
+  color: gray;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #071629;
+}
+
+.footer {
+  text-align: center;
+  padding: 70px;
+}
+
+.logo-and-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.logo-and-social img {
+  margin-right: 10px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+* {
+  font-family: "Source Sans Pro" !important;
+}
